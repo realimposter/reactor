@@ -260,7 +260,7 @@ def swap_face(
                         logger.info(f"No source face found for face number {source_idx}.")
 
                 # Debugging section for drawing bounding boxes
-                if True:
+                if False:
                     colors = [(255, 0, 0), (0, 255, 0), (0, 0, 255), (255, 255, 0), (0, 255, 255), (255, 0, 255)]
                     for target_idx, source_idx in enumerate(matched_indexes):
                         if source_idx is not None:
